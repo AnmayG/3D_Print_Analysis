@@ -1,0 +1,32 @@
+name: "."
+title: "Final Project"
+description: |
+  Final Project
+output_dir: "docs"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "Graphs"
+      menu: 
+      - text: "Layer Height"
+        href: graph_1.html
+      - text: "Wall Thickness"
+        href: graph_2.html
+      - text: "Infill Density"
+        href: graph_3.html
+      - text: "Infill Pattern"
+        href: graph_4.html
+      - text: "Nozzle Temperature"
+        href: graph_5.html
+      - text: "Bed Temperature"
+        href: graph_6.html
+      - text: "Print Speed"
+        href: graph_7.html
+      - text: "Material"
+        href: graph_8.html
+      - text: "Fan Speed"
+        href: graph_9.html
+    - text: "About"
+      href: about.html
+output: distill::distill_article

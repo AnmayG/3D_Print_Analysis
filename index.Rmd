@@ -1,0 +1,22 @@
+---
+title: "Final Project"
+description: |
+  This is my final project for the Kane's High School Data Science Boot Camp.
+site: distill::distill_website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Learn more about creating websites with Distill at:
+# https://rstudio.github.io/distill/website.html
+
+# Learn more about publishing to GitHub Pages at:
+# https://rstudio.github.io/distill/publish_website.html#github-pages
+
+```
+
+Currently, my plan is to take the data and read it in as a csv file. I can then look at the data and generate a graph for each occurence, eventually generating a final graph based on parameters.
+This can be done by using the SQL predict function, where I read the csv file into a database and work from there.
+I can then do the SQL code so that it predicts the thing automatically based on input instructions.
+This will likely require me to do a model but I don't care.
