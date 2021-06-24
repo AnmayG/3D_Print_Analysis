@@ -42,11 +42,7 @@ clean_data %>%
        fill = "Layer Height (mm)")
 ```
 
-```{r graph_data, clean_data}
-clean_data %>% 
-  ggplot(aes(x = layer_height, y = tension_strength)) +
-  geom_col()
-
+```{r graph_data}
 clean_data %>%
   ggplot(aes(x = trial_number, y = tension_strength, fill = layer_height)) +
   geom_col() +
